@@ -1,0 +1,68 @@
+body{
+  background-color: blue;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  
+   
+}
+h1{
+  font-size: 200%;
+  margin-top: 5%;
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+
+.App-Header{
+
+  border-radius: 200px;
+  background-color: aqua;
+  padding: 10px;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.App-Body{
+  background-color: gray;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 0;
+  border-radius: 20px;
+}
+.App-Body>div{
+  margin-top: 2%;
+  border-bottom: 1px dotted black;
+  padding: 10px;
+  text-align: left;
+  
+}
+.Register-Button{
+ 
+  margin-top: 0;
+  background-color: gray;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  align-content: center;
+  
+}
+
+input{
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+button{
+  background-color: gray;
+  border: 0px solid black;
+  font-size: 100%;
+}
+
+button:hover{
+  background-color: rgb(51, 50, 50);
+  border: 0px solid black;
+  font-size: 100%;
+}
+
